@@ -68,11 +68,3 @@ order by year
 select year, sum(totalprod) as total_honey_production, sum(prodvalue) as value_of_production from honeyprod
 group by year
 order by year
-
-
-
-
-
-
-state,  numcol  ,yieldpercol, totalprod  ,stocks,  priceperlb,    prodvalue,   year
-Alabama,  16000  ,71,         1136000  ,159000,  0.72,             818000,     1998
